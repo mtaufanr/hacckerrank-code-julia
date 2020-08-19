@@ -1,8 +1,8 @@
 # https://www.hackerrank.com/challenges/30-conditional-statements/problem
 
-n = parse(Int64, readline())
+n = parse(Int, readline())
 
-function check_weird(v::Int64)
+function check_weird(v::Int)
     r_weird = "Weird"
     r_not_weird = "Not Weird"
     is_even = v % 2 == 0
