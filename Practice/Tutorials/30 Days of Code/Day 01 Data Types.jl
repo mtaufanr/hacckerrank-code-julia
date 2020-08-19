@@ -3,8 +3,8 @@
 # Declare second integer, double, and String variables.
 # Read and save an integer, double, and String to your variables.
 inputs = readlines()
-i = i + parse(Int64, inputs[1])    
-d = d + parse(Float64, inputs[2])
+i = i + parse(Int, inputs[1])    
+d = d + parse(AbstractFloat, inputs[2])
 s = s * " " * inputs[3]
 
 # Print the sum of both integer variables on a new line.
