@@ -1,6 +1,6 @@
 # https://www.hackerrank.com/challenges/30-review-loop/problem
 
-function get_input(n::Int64)::Array{String}
+function get_input(n::Int)
     s = String[]
     for _ in 1:n
         append!(s, readlines())
@@ -17,6 +17,6 @@ function print_sol(sa::Array{String})
 end
         
 
-n = parse(Int64, readline())
+n = parse(Int, readline())
 s = get_input(n)
 print_sol(s)
