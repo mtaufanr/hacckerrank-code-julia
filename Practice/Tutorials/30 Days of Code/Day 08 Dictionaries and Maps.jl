@@ -32,7 +32,7 @@ function get_number(book::Dict{String,String}, name_rec::Array{String})
     end
 end
 
-n = parse(Int64, readline())
+n = parse(Int, readline())
 phone_book = rec_phone_book(n)
 name_list = rec_name(n)
 get_number(phone_book, name_list)
